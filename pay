@@ -1,0 +1,5 @@
+AdRequest request = new AdRequest.Builder()
+    .AddTestDevice(AdRequest.TestDeviceSimulator)       // Simulator.
+    .AddTestDevice("0123456789ABCDEF0123456789ABCDEF")  // Test Device 1.
+    .Build();
+    
